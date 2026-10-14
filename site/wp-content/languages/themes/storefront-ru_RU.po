@@ -1,0 +1,876 @@
+# Translation of Themes - Storefront in Russian
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-09 09:03:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront — отличная тема для вашего проекта на WooCommerce. Будучи созданной разработчиками ядра WooCommerce, она полностью совместима с самим плагином и многими из его самых популярных расширений. Тема включает в себя несколько вариантов разметки и цветовых схем для настройки вашего магазина, несколько областей для виджетов, адаптивный дизайн и многое другое. Разработчикам понравится её простой и расширяемый код, который очень легко настраивается и дополняется. Ищете тему для WooCommerce? Вы её нашли!"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Storefront"
+msgstr "Storefront"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with WooCommerce"
+msgstr "Создано с помощью WooCommerce"
+
+#: inc/woocommerce/class-storefront-woocommerce.php:226
+msgid "breadcrumbs"
+msgstr "цепочки навигации"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:35
+msgid "Visit the Storefront settings page to start setup and customization of your shop."
+msgstr "Посетите страницу настроек Storefront для того, чтобы настроить ваш магазин."
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:34
+msgid "Design your store with Storefront 🎨"
+msgstr "Оформите ваш магазин с помощью Storefront 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:181
+msgid "Skip"
+msgstr "Пропустить"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:759
+msgid "Cart"
+msgstr "Корзина"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "или"
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "Создано на Storefront"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront -  идеальная платформа для вашего следующего WooCommerce проекта."
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "подробнее"
+
+#: inc/class-storefront.php:207
+msgid "Huge"
+msgstr "огромный"
+
+#: inc/class-storefront.php:202
+msgid "Large"
+msgstr "большой"
+
+#: inc/class-storefront.php:197
+msgid "Medium"
+msgstr "средний"
+
+#: inc/class-storefront.php:192
+msgid "Normal"
+msgstr "обычный"
+
+#: inc/class-storefront.php:187
+msgid "Small"
+msgstr "мелкий"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1082
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Вы можете изменить этот текст отредактировав страницу \"Добро пожаловать\" через меню \"Страницы\" консоли WordPress."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1078
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "Это главная страница вашего магазина. Ее видят пользователи, когда заходят на сайт."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Изменить <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Метка"
+msgstr[1] "Метки"
+msgstr[2] "Меток"
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Рубрика:"
+msgstr[1] "Рубрики:"
+msgstr[2] "Рубрик:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "от"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:920
+msgid "Product Brands"
+msgstr "Бренды"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:903
+msgid "Shop by Brand"
+msgstr "Бренды магазина"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:867
+msgid "You're viewing:"
+msgstr "Вы смотрите: "
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:803
+msgid "More products"
+msgstr "Больше товаров"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Отображает ссылки на предыдущий и следующий товар на страницах товара. Отображается миниатюра товара с заголовком, отображаемым при наведении."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "Пагинация"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "Небольшая панель в верхней части экрана, которая включает соответствующую информацию о продукте и кнопку «добавить в корзину». Панель появляется, как только стандартная кнопка «добавить в корзину» прокручивается за границы видимой области."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "Закрепленная кнопка Добавить в корзину"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "Страница товара"
+
+#: inc/customizer/class-storefront-customizer.php:342
+msgid "Hero text color"
+msgstr "Цвет текста"
+
+#: inc/customizer/class-storefront-customizer.php:311
+msgid "Hero heading color"
+msgstr "Цвет заголовка"
+
+#: inc/class-storefront.php:356
+msgid "Collapse child menu"
+msgstr "Свернуть дочернее меню"
+
+#: inc/class-storefront.php:355
+msgid "Expand child menu"
+msgstr "Развернутое вложенное меню"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - лучшая eCommerce платформа для WordPress"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Организуйте свои меню, добавив страницы, категории, метки и произвольные ссылки."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Настройте свои меню"
+
+#: inc/class-storefront.php:490
+msgid "Post Navigation"
+msgstr "Навигация по записям"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "Навигация по комментариям ниже"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "Навигация по комментариям выше"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Комментарии записи"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Продвигаемые товары"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Активировано"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:603
+msgid "Best Selling Products"
+msgstr "Бестселлеры"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:548
+msgid "On Sale Products"
+msgstr "Товары со скидками"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "Редактировать этот блок"
+
+#: inc/nux/class-storefront-nux-starter-content.php:952
+msgid "Vneck Tshirt"
+msgstr "Футболка с треугольным вырезом"
+
+#: inc/nux/class-storefront-nux-starter-content.php:931
+msgid "Tshirt"
+msgstr "Футболка"
+
+#: inc/nux/class-storefront-nux-starter-content.php:910
+msgid "Polo"
+msgstr "Тенниска"
+
+#: inc/nux/class-storefront-nux-starter-content.php:889
+msgid "Long Sleeve Tee"
+msgstr "Реглан"
+
+#: inc/nux/class-storefront-nux-starter-content.php:867
+msgid "Hoodie"
+msgstr "Толстовка"
+
+#: inc/nux/class-storefront-nux-starter-content.php:846
+msgid "Hoodie with Zipper"
+msgstr "Толстовка на молнии"
+
+#: inc/nux/class-storefront-nux-starter-content.php:824
+msgid "Hoodie with Pocket"
+msgstr "Толстовка с карманами"
+
+#: inc/nux/class-storefront-nux-starter-content.php:803
+msgid "Hoodie with Logo"
+msgstr "Толстовка с логотипом"
+
+#: inc/nux/class-storefront-nux-starter-content.php:782
+msgid "Sunglasses"
+msgstr "Очки"
+
+#: inc/nux/class-storefront-nux-starter-content.php:760
+msgid "Cap"
+msgstr "Шапка"
+
+#: inc/nux/class-storefront-nux-starter-content.php:738
+msgid "Belt"
+msgstr "Ремень"
+
+#: inc/nux/class-storefront-nux-starter-content.php:716
+msgid "Beanie"
+msgstr "Вязаная шапочка"
+
+#: inc/nux/class-storefront-nux-starter-content.php:710
+msgid "Tshirts"
+msgstr "Футболки"
+
+#: inc/nux/class-storefront-nux-starter-content.php:707
+msgid "Hoodies"
+msgstr "Толстовки"
+
+#: inc/nux/class-storefront-nux-starter-content.php:705
+#: inc/nux/class-storefront-nux-starter-content.php:708
+#: inc/nux/class-storefront-nux-starter-content.php:711
+msgid "A short category description"
+msgstr "Краткое описание категории"
+
+#: inc/nux/class-storefront-nux-starter-content.php:704
+msgid "Accessories"
+msgstr "Аксессуары"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Это страница с основными контактными данными, такими как адрес и номер телефона. Вы также можете попробовать плагин, чтобы добавить контактную форму."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Контакты"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Вы можете быть художником, который хотел бы представить себя и свою работу здесь или, если вы бизнесмен, можете описать свою миссию."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "О нас"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1074
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Выполнено"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr ""
+"Все готово! %1$sСохраните и Опубликуйте%2$s ваши изменения.\n"
+"%3$sВы можете вернуться в консоль, нажав X в верхнем левом углу."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Выберите цвета для фона и текста кнопок. Еще раз, цвета бренда - можно настроить именно здесь."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Цвет кнопок"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "На панели типографики вы можете указать основной цвет, который будет применяться к основным элементам, таким как ссылки и рейтинги. Для этой настройки рекомендуется использовать цвета вашего бренда."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Выберите свой акцентный цвет"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Откройте панель Свойства сайта, затем нажмите кнопку «Выбрать логотип», чтобы загрузить логотип."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Здесь вы можете контролировать общий внешний вид вашего магазина.%sЧтобы начать, давайте добавим ваш логотип"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Добро пожаловать в мастер настройки"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Пропустить этот шаг"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Спасибо, пропустить тур"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:42
+#: inc/nux/class-storefront-nux-admin.php:180
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "Вперед!"
+
+#: inc/nux/class-storefront-nux-admin.php:174
+msgid "Add example products"
+msgstr "Добавить демонстрационные товары"
+
+#: inc/nux/class-storefront-nux-admin.php:164
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Создайте главную страницу с помощью шаблона главной страницы Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:162
+msgid "Apply the Storefront homepage template"
+msgstr "Применить шаблон главной страницы Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:140
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Вы установили WooCommerce, теперь пришло время придать ему стиля! Давайте начнем с мастера настройки и добавления вашего логотипа."
+
+#: inc/nux/class-storefront-nux-admin.php:138
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Прежде чем добавить свой первый продукт, давайте создадим ваш магазин. Мы добавим некоторые примеры товаров для вас. Когда вы будете готовы, давайте начнем с добавления вашего логотипа."
+
+#: inc/nux/class-storefront-nux-admin.php:134
+msgid "Design your store 🎨"
+msgstr "Оформите свой магазин 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Activate WooCommerce"
+msgstr "Активировать WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "WooCommerce activated"
+msgstr "WooCommerce активирован"
+
+#: inc/nux/class-storefront-nux-admin.php:129
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Чтобы включить функции eCommerce, вам необходимо установить плагин WooCommerce."
+
+#: inc/nux/class-storefront-nux-admin.php:128
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Спасибо за установку Storefront, это круто! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:281
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Виджеты, добавленные в эту область появятся в %1$d столбце %2$d строки подвала."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:278
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Подвал Строка %1$d - Столбец %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:275
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Виджеты, добавленные в эту область появятся в %1$d столбце подвала."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:272
+msgid "Footer Column %1$d"
+msgstr "Подвал Столбец %1$d"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "Установить сейчас"
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "Проверьте их"
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Конечно, они все полностью совместимы с каждым расширением Storefront."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Каждый из них был разработан для любой индустрии - от моды до еды."
+
+#: inc/admin/class-storefront-admin.php:141
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Быстро и легко трансформировать внешний вид магазинов с помощью дочерних тем Storefront"
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "Альтернативные оформления"
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "Узнайте больше и купите"
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Сделайте это самостоятельно, без кода, с помощью набора расширений Storefront. Выразите себя, конвертируйте пользователей в клиентов."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Все инструменты, необходимые для настройки внешнего вида Storefront."
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront пакет расширений"
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Здравствуйте! Вас могут заинтересовать следующие расширения и дизайны Storefront."
+
+#: inc/admin/class-storefront-admin.php:105
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Еще кое-что... Вас могут заинтересовать следующие дополнения и оформления Storefront."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Установка выполнена %1$sВаше приключение с Storefront начинается прямо сейчас 🚀%2$s"
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "Блог разработчиков"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/class-storefront.php:259
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Виджеты, добавленные в эту область, будут отображаться между шапкой и основной контентной областью"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:773
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:743
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1049
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:582
+msgid "Best Sellers"
+msgstr "Лидеры продаж"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1037
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:470
+msgid "Fan Favorites"
+msgstr "Популярное"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1108
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:414
+msgid "We Recommend"
+msgstr "Мы рекомендуем"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1029
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:358
+msgid "New In"
+msgstr "Новинки"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1021
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:303
+msgid "Shop by Category"
+msgstr "Категории товаров"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/class-storefront.php:257
+msgid "Below Header"
+msgstr "Под заголовком"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Нравится %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "Проект от %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:667
+msgid "New In Store"
+msgstr "Новинки"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:654
+msgid "On Sale Now"
+msgstr "Скидки"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Назад"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "Далее"
+
+#: inc/customizer/class-storefront-customizer.php:357
+msgid "Header background image"
+msgstr "Фоновое изображение заголовка"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:491
+msgid "Popular Products"
+msgstr "Популярные товары"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском или посмотрите ссылки ниже."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:66
+msgid "Homepage"
+msgstr "Главная страница"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "на всю ширину"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d товар"
+msgstr[1] "%d товара"
+msgstr[2] "%d товаров"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "Посмотреть вашу корзину"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1043
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:526
+msgid "On Sale"
+msgstr "Распродажа"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:436
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:641
+msgid "Featured Products"
+msgstr "Рекомендуемые товары"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:379
+msgid "Recent Products"
+msgstr "Последние товары"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:324
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Далее"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "Перейти к навигации"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "Дополнительная навигация"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "Основная навигация"
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: inc/class-storefront.php:251
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: inc/class-storefront.php:97
+#: inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "Меню для мобильных устройств"
+
+#: inc/class-storefront.php:96
+#: inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "Дополнительное меню"
+
+#: inc/class-storefront.php:95
+#: inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: inc/customizer/class-storefront-customizer.php:800
+msgid "Looking for more options?"
+msgstr "Ищете дополнительные варианты?"
+
+#: inc/customizer/class-storefront-customizer.php:782
+msgid "More"
+msgstr "Больше"
+
+#: inc/customizer/class-storefront-customizer.php:761
+msgid "General Layout"
+msgstr "Общая разметка"
+
+#: inc/customizer/class-storefront-customizer.php:734
+msgid "Layout"
+msgstr "Разметка"
+
+#: inc/customizer/class-storefront-customizer.php:720
+msgid "Alternate button text color"
+msgstr "Цвет текста альтернативной кнопки"
+
+#: inc/customizer/class-storefront-customizer.php:689
+msgid "Alternate button background color"
+msgstr "Цвет фона альтернативной кнопки"
+
+#: inc/customizer/class-storefront-customizer.php:600
+msgid "Customize the look & feel of your website buttons."
+msgstr "Настроить кнопки вашего сайта."
+
+#: inc/customizer/class-storefront-customizer.php:598
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: inc/customizer/class-storefront-customizer.php:464
+msgid "Customize the look & feel of your website footer."
+msgstr "Настроить подвал вашего сайта."
+
+#: inc/customizer/class-storefront-customizer.php:462
+msgid "Footer"
+msgstr "Подвал"
+
+#: inc/customizer/class-storefront-customizer.php:448
+#: inc/customizer/class-storefront-customizer.php:584
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: inc/customizer/class-storefront-customizer.php:386
+#: inc/customizer/class-storefront-customizer.php:491
+#: inc/customizer/class-storefront-customizer.php:627
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: inc/customizer/class-storefront-customizer.php:218
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Heading color"
+msgstr "Цвет заголовка"
+
+#: inc/customizer/class-storefront-customizer.php:249
+#: inc/customizer/class-storefront-customizer.php:417
+#: inc/customizer/class-storefront-customizer.php:553
+#: inc/customizer/class-storefront-customizer.php:658
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: inc/customizer/class-storefront-customizer.php:280
+msgid "Link / accent color"
+msgstr "Цвет ссылки / выделения"
+
+#: inc/customizer/class-storefront-customizer.php:190
+msgid "Typography"
+msgstr "Типографика"
+
+#: inc/customizer/class-storefront-customizer.php:134
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/customizer/class-storefront-customizer.php:130
+msgid "Background"
+msgstr "Фон"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Хотите оставить о нас отзыв на %1$sWordPress.org%2$s? Мы будем очень признательны!"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "У нас есть набор расширений для %1$s, которые дадут вам больше возможностей. Подробности можно узнать на странице %2$s%3$s%4$s в панели управления."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Добавить свой логотип"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Install WooCommerce"
+msgstr "Установить WooCommerce"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Активировать"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://woocommerce.com/products/storefront/"
+msgstr "https://woocommerce.com/products/storefront/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"

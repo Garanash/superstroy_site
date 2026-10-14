@@ -1,0 +1,234 @@
+/*
+Theme Name: СтройМаркет
+Theme URI: http://127.0.0.1:8090/
+Description: Витрина магазина строительных материалов
+Author: СтройМаркет
+Template: storefront
+Version: 1.0.0
+Text Domain: stroymarket
+*/
+
+:root {
+  --ink: #17211c;
+  --green: #1b4332;
+  --green-dark: #10281e;
+  --paper: #f4f7f5;
+  --card: #ffffff;
+  --line: #d5e0da;
+  --accent: #c46b2f;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.site-header {
+  background: var(--green);
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.site-header .site-branding,
+.site-header .site-search,
+.site-header .site-header-cart {
+  color: #fff;
+}
+
+.site-header a,
+.site-header .site-title a,
+.site-header .site-description {
+  color: #fff;
+}
+
+.shop-departments {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 0 0 16px;
+}
+
+.shop-departments a {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.shop-departments a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+  align-items: center;
+  background: linear-gradient(135deg, var(--green-dark), var(--green));
+  color: #fff;
+  border-radius: 20px;
+  padding: 42px;
+  margin: 28px auto;
+}
+
+.home-hero h1 {
+  margin: 0 0 10px;
+  font-size: 46px;
+  line-height: 1.05;
+  color: #fff;
+}
+
+.home-hero p {
+  margin: 0 0 22px;
+  font-size: 18px;
+  max-width: 36rem;
+}
+
+.home-search {
+  display: flex;
+  gap: 8px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 6px;
+  max-width: 520px;
+}
+
+.home-search input[type="search"] {
+  flex: 1;
+  border: 0;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+}
+
+.home-search button,
+.button.alt,
+button.alt,
+.button.checkout,
+#place_order {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.home-search button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0 18px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.home-stat {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.home-stat b {
+  display: block;
+  font-size: 34px;
+}
+
+.section-title {
+  margin: 10px 0 16px;
+  font-size: 28px;
+}
+
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.department-grid a {
+  display: block;
+  min-height: 110px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.department-grid a:hover {
+  border-color: var(--green);
+}
+
+.department-grid strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.department-grid span,
+.price-on-request {
+  color: #5d6b64;
+}
+
+.catalog-gallery__main {
+  width: 100%;
+  border-radius: 16px;
+  background: #fff;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.catalog-gallery__thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.catalog-gallery__thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  background: #fff;
+}
+
+.product-specs {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.product-specs th,
+.product-specs td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.product-specs th {
+  width: 38%;
+  color: #405049;
+  font-weight: 600;
+}
+
+.woocommerce ul.products li.product .price,
+.single-product .price {
+  color: var(--green);
+}
+
+@media (max-width: 800px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+  }
+
+  .home-hero h1 {
+    font-size: 34px;
+  }
+}

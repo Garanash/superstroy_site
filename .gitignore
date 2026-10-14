@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.shop-admin.txt
+.admin-password.txt
+import.log
+runtime/
+site/wp-config.php
+site/wp-content/debug.log
+site/wp-content/cache/*
+!site/wp-content/cache/catalog-images/
+!site/wp-content/cache/catalog-images/**

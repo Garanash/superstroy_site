@@ -1,0 +1,1 @@
+2026-10-13T22:40:11+00:00 WARNING WooCommerce tracker snapshot delivery failed; giving up until the next interval. CONTEXT: {"http_status":400,"error_code":"","failures":1,"body_bytes":22266}
